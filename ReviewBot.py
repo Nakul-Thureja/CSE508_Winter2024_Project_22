@@ -1,7 +1,6 @@
 import streamlit as st
 import openai
-# openai.api_key = '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'
-openai.api_key = ''
+# openai.api_key = ''
 class ReviewChatbot:
     def __init__(self, reviews, chat_history=[]):
         self.reviews = reviews
