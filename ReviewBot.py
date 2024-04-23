@@ -1,6 +1,5 @@
 import streamlit as st
 import openai
-# openai.api_key = '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'
 openai.api_key = ''
 
 class ReviewChatbot:
